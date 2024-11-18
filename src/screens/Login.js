@@ -16,9 +16,9 @@ const LoginScreen = ({navigation}) => {
       alert('Insira email e senha');
       return;
     }
-    if(email != 'talkaction@teste.com' && password != "12345"){
-      alert('Email ou senha incorretos')
-    }
+    // if(email != 'talkaction@teste.com' && password != "12345"){
+    //   alert('Email ou senha incorretos')
+    // }
     navigation.navigate("Home")
 
     // Simulação de login bem-sucedido
